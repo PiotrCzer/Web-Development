@@ -1,0 +1,114 @@
+
+a:link{
+text-decoration: none;
+list-style: none;
+}
+
+.links{
+list-style: none;
+display: inline;
+word-spacing: 10px;
+}
+
+h1, h2, h3, h4{
+text-align: center;
+}
+
+h4{
+color: navy;
+}
+
+.logo{
+font-family: 'Righteous', cursive;
+}
+
+ul{
+list-style: none;
+}
+
+.errors1
+{
+position: absolute;
+right: 300px;
+}
+
+.errors2
+{
+position: absolute;
+top: 140px;
+right: 300px;
+color: red;
+}
+
+.errors3{
+color: red;
+}
+
+.login 
+{
+border: 1px solid #CCC;
+padding: 10px;
+width: 200px;
+clear: both;
+float: right;
+margin-right: 3%;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+}
+
+.loggedin{
+border: 1px solid #CCC;
+padding: 10px;
+width: 200px;
+float: right;
+clear: both;
+margin-right: 3%;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+}
+
+.settings{
+border: 1px solid #CCC;
+padding-right: 20px;
+width: 200px;
+height: 235px;
+float: right;
+margin-right: 3%;
+margin-top: 10px;
+clear: both;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+}
+
+.changepass{
+border: 1px solid #CCC;
+padding-right: 20px;
+width: 200px;
+height: 235px;
+float: right;
+margin-right: 3%;
+margin-top: 10px;
+clear: both;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+}
+
+.usercount{
+border: 1px solid #CCC;
+width: 200px;
+float: right;
+margin-top: 10px;
+clear: both;
+margin-right: 3%;
+padding: 10px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+}
+
+.register{
+background-color: white;
+width: 220px;
+padding: 10px;
+border-radius: 5px 5px 5px 5px;
+}
+

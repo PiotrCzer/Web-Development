@@ -1,0 +1,364 @@
+#google-map {
+width: 300px;
+height: 300px;
+}
+
+
+p,ul,li,h1,h2 { 
+margin:0; 
+padding:0; 
+} 
+ 
+#search_box {
+position: relative;
+top: 200px;
+height: 40px;
+margin-left:auto;
+margin-right:auto;
+border-radius:5px; 
+} 
+
+h1 { 
+font-size:24px; 
+margin-bottom:12px; 
+} 
+ 
+input[name=search_terms] { 
+font-size:20px;
+color: black; 
+font-weight:bold;
+display:inline-block; 
+border:0; 
+width:250px;
+height:40px;
+margin:0;
+vertical-align: top;
+border:none; 
+border-style: none;
+} 
+ 
+#search_button { 
+display:inline-block;
+border-width:0px 0px 0px 1px;
+margin:0;
+height:42px;
+-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+box-shadow:inset 0px 1px 0px 0px #cae3fc;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+background-color:#79bbff;
+color:#ffffff;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+font-style:normal;
+line-height:40px;
+width:100px;
+text-decoration:none;
+text-align:center;
+} 
+ 
+.search_button:hover { 
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+background-color:#4197ee; 
+} 
+ 
+.search_button:active { 
+position:relative; 
+} 
+ 
+#search_results{
+float: left;
+width: 55%;
+} 
+#search_results1{
+float: right;
+width: 30%;
+padding-right: 5%;
+}
+#results_wrapper{
+margin-top: 5%;
+}
+
+
+ul{
+list-style: none;
+}
+
+#errors1
+{
+position: absolute;
+right: 300px;
+}
+
+#errors2
+{
+position: absolute;
+top: 140px;
+right: 300px;
+color: red;
+}
+
+#errors3{
+color: red;
+}
+
+input:-moz-placeholder{
+color:#CCCCFF;
+}
+
+#login{
+background-image: url('http://trendmashing.gopagoda.com/images/clearback.png');
+width: 100%;
+height: 38px;
+top: 20px;
+}
+
+#loginform
+{
+margin-left:auto;
+margin-right: auto;
+width: 450px;
+}
+
+#loggedin {
+background-image: url('http://trendmashing.gopagoda.com/images/clearback.png');
+height: 38px;
+width: 100%;
+margin-left:auto;
+margin-right: auto;
+clear: none;
+}
+
+#userli{
+position: relative;
+left: 10px;
+top: 8px;
+color:white;
+}
+
+#loggedinlinks li{
+font-weight: 900;
+display: inline;
+font-family: 'Yanone Kaffeesatz', 'sans-serif';
+padding-right: 25px;
+left: 500px;
+top:-30px;
+position: relative;
+text-decoration: none;
+}
+
+#loggedinlinks a:link{
+text-decoration: none;
+color: black;
+}
+
+#loggedinlinks a:hover{
+text-decoration: none;
+color: blue;
+}
+
+#settings{
+border: 1px solid #CCC;
+padding: 10px;
+width: 200px;
+height: 235px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+background-image: url('http://trendmashing.gopagoda.com/images/clearback.png');
+border-radius: 5px 5px 5px 5px;
+}
+
+#changepass{
+border: 1px solid #CCC;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+height: 235px;
+margin-top: 100px;
+background-image: url('http://trendmashing.gopagoda.com/images/clearback.png');
+border-radius: 5px 5px 5px 5px;
+}
+
+#usercount{
+position: relative;
+left:860px;
+top: -70px;
+font-family: 'Fredoka One', 'cursive';
+width: 250px;
+
+}
+
+#register{
+background-color: white;
+width: 220px;
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+background-image: url('http://trendmashing.gopagoda.com/images/clearback.png');
+border-radius: 5px 5px 5px 5px;
+}
+
+#login_message{
+display: inline;
+}
+
+#uname{
+background: #F1F1F1 url('http://trendmashing.gopagoda.com/images/user.png') no-repeat;
+width: 140px;
+height:10px;
+margin-left: 2px;
+background-position: 5px -5px !important;
+padding: 8px 8px 8px 25px;
+border: 1px solid #CCC;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+-webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+} 
+#uname:focus { 
+background-color: #FFF; 
+border-color: #E8C291; 
+outline: none; 
+-moz-box-shadow: 0 0 0 1px #e8c291 inset; 
+-webkit-box-shadow: 0 0 0 1px #E8C291 inset; 
+box-shadow: 0 0 0 1px #E8C291 inset; 
+} 
+	
+#pass{
+background: #F1F1F1 url('http://trendmashing.gopagoda.com/images/pass.png') no-repeat;
+background-position: 5px -2px !important;
+width: 140px;
+height:10px;
+margin-left: 2px;
+border: 1px solid #CCC;
+padding: 8px 8px 8px 25px;
+border: 1px solid #CCC;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+-webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+} 
+#pass:focus { 
+background-color: #FFF; 
+border-color: #E8C291; 
+outline: none; 
+-moz-box-shadow: 0 0 0 1px #e8c291 inset; 
+-webkit-box-shadow: 0 0 0 1px #E8C291 inset; 
+box-shadow: 0 0 0 1px #E8C291 inset; 
+} 
+
+#loginbtn{
+font-size: 12px;
+font-family:Arial Black;
+font-weight:normal;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #83c41a;
+padding: 6px 6px;
+text-shadow:1px 1px 0px #689324;
+-moz-box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+-webkit-box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+font-weight:normal;
+text-decoration:none;
+cursor: pointer;
+background:-webkit-linear-gradient(90deg, #8cb82b 5%, #9dce2c 100%);
+background:-moz-linear-gradient(90deg, #8cb82b 5%, #9dce2c 100%);
+background:-ms-linear-gradient(90deg, #8cb82b 5%, #9dce2c 100%);
+background:linear-gradient(180deg, #9dce2c 5%, #8cb82b 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+/*background-color:#8cb82b;*/
+color:#ffffff;
+display:inline-block;
+}
+
+#loginbtn:hover
+{
+background:-webkit-linear-gradient(90deg, #9dce2c 5%, #8cb82b 100%);
+background:-moz-linear-gradient(90deg, #9dce2c 5%, #8cb82b 100%);
+background:-ms-linear-gradient(90deg, #9dce2c 5%, #8cb82b 100%);
+background:linear-gradient(180deg, #8cb82b 5%, #9dce2c 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+/*background-color:#9dce2c;*/
+}
+
+#loginbtn:active {
+position:relative;
+top:1px;
+}
+
+#registerbtn{
+font-size: 12px;
+font-family:Arial Black;
+font-weight:bold;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #83c41a;
+padding: 6px 6px;
+-moz-box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+-webkit-box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+box-shadow:inset 1px 1px 0px 0px #c1ed9c;
+font-weight:normal;
+text-decoration:none;
+cursor: pointer;
+background:-webkit-linear-gradient(90deg, #dfdfdf 5%, #ededed 100%);
+background:-moz-linear-gradient(90deg, #dfdfdf 5%, #ededed 100%);
+background:-ms-linear-gradient(90deg, #dfdfdf 5%, #ededed 100%);
+background:linear-gradient(180deg, #ededed 5%, #dfdfdf 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+/*background-color:#dfdfdf;*/
+color:#000000;
+display:inline-block;
+}
+
+#registerbtn:hover
+{
+background:-webkit-linear-gradient(90deg, #ededed 5%, #dfdfdf 100%);
+background:-moz-linear-gradient(90deg, #ededed 5%, #dfdfdf 100%);
+background:-ms-linear-gradient(90deg, #ededed 5%, #dfdfdf 100%);
+background:linear-gradient(180deg, #dfdfdf 5%, #ededed 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+/*background-color:#ededed;*/
+}
+
+#registerbtn:active {
+position:relative;
+top:1px;
+}
+
+#username_password{
+font-family: 'Roboto', 'sans-serif';
+}
+
+#facebook{
+top: 50px;
+position: absolute;
+float: right;
+}
+
+#aside{
+height: 38px;
+}
+
+#textList{
+font-family: 'Roboto', 'sans-serif';
+font-size: 20px;
+padding-right:25px;
+display:inline;
+position: relative;
+
+}
+

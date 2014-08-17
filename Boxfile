@@ -1,0 +1,16 @@
+--- 
+web1: 
+  name: peter
+  php_extensions: 
+    - curl
+    - json
+    - mysql
+    - mysqli
+    - mycrypt
+    - mbstring
+    - oauth
+    - openssl
+  php_version: "5.2.17"
+  shared_writable_dirs: 
+    - var/logs
+    - var/cache
