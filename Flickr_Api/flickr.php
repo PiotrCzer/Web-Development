@@ -1,4 +1,9 @@
 <?php
+/*
+* @ Piotr Czerniejewski
+* 12/04/14
+* API Methods for calling images from flicker based on user input
+*/
 class Flickr
 {
     private $apiKey = '2ba25f83313d24c95e821e637ae77490';
