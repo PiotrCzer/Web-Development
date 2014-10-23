@@ -1,4 +1,9 @@
 <?php
+/*
+* @ Piotr Czerniejewski
+* 12/04/14
+* API Methods for calling images from flicker based on user input
+*/
 require_once('flickr.php');
 $Flickr = new Flickr;
 if (!empty($_GET['q'])) {
